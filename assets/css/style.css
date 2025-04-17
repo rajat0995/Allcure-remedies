@@ -88,6 +88,16 @@ header .navbar-light .navbar-nav li:last-child a {
     color: #fff;
     margin-left: 30px;
 }
+a.navbar-brandtwo {
+    display: flex;
+    justify-content: end;
+}  
+a.navbar-brandtwo img {
+    padding: 4px 0px;
+}
+a.navbar-brand img {
+    width: 54%;
+}
 .sticky {
 	position: fixed;
 	top: 0;
@@ -234,6 +244,12 @@ ul.more-content-list {
     font-weight: bold;
 }
 
+
+/******gmap***/
+.thirdparty-img {
+    display: flex;
+    justify-content: center;
+}
 /* testimonial */
 .testi-heading {
     text-align: center;
@@ -265,6 +281,9 @@ section#testimonial {
 
 
 /* footer  */
+.footerabout img {
+    width: 40%;
+}
 footer#footer {
     background: #1b5fc1;
 }
@@ -475,6 +494,10 @@ section.banner-thankypu {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
     } 
+    header .navbar-light .navbar-nav .nav-link {
+        padding-left: 16px;
+        font-size: 12px;
+    } 
 }
 @media (min-width: 1101px) and (max-width: 1300px) {
     .review-content-list ul {
@@ -494,6 +517,10 @@ section.banner-thankypu {
     .testimonial-sec-box {
         min-height: 400px;
     }
+    header .navbar-light .navbar-nav .nav-link {
+        padding-left: 16px;
+        font-size: 12px;
+    } 
 }
 @media (min-width: 992px) and (max-width: 1100px) {
     .review-content-list ul {
@@ -518,7 +545,27 @@ section.banner-thankypu {
     } 
     .popup-content {
         max-width: 94%;
-    }  
+    } 
+    header .navbar-light .navbar-nav .nav-link {
+        padding-left: 16px;
+        font-size: 12px;
+    } 
+    .footerabout img {
+        width: 60%;
+    }
+    header .navbar-light .navbar-nav li:last-child a {
+        padding: 8px 12px;
+    }
+    a.navbar-brandtwo img {
+        padding: 4px 0px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:991px){
+    a.navbar-brandtwo {
+        display: none;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .review-content-list ul {
@@ -577,6 +624,9 @@ section.banner-thankypu {
     }
     .navbar-light .navbar-toggler-icon {
         filter: invert(1);
+    }
+    .footerabout img {
+        width: 90%;
     }
 }
 @media only screen and (max-width:767px){
@@ -725,6 +775,15 @@ section.banner-thankypu {
         border: none;
         font-size: 14px;
         border: 1px solid #dbdbdb;
+    }
+    a.navbar-brandtwo {
+        display: none;
+    }
+    a.navbar-brand img {
+        width: 70%;
+    }
+    a.navbar-brand img {
+        width: 38%;
     }
 }
 
