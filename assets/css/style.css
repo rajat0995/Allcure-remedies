@@ -92,11 +92,13 @@ a.navbar-brandtwo {
     display: flex;
     justify-content: end;
 }  
+
 a.navbar-brandtwo img {
     padding: 4px 0px;
+    width: 56%;
 }
 a.navbar-brand img {
-    width: 54%;
+    width: 50%;
 }
 .sticky {
 	position: fixed;
@@ -495,9 +497,9 @@ section.banner-thankypu {
         grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
     } 
     header .navbar-light .navbar-nav .nav-link {
-        padding-left: 16px;
-        font-size: 12px;
-    } 
+        padding-left: 20px;
+        font-size: 16px;
+    }
 }
 @media (min-width: 1101px) and (max-width: 1300px) {
     .review-content-list ul {
@@ -518,9 +520,9 @@ section.banner-thankypu {
         min-height: 400px;
     }
     header .navbar-light .navbar-nav .nav-link {
-        padding-left: 16px;
-        font-size: 12px;
-    } 
+        padding-left: 30px;
+        font-size: 14px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1100px) {
     .review-content-list ul {
@@ -558,7 +560,7 @@ section.banner-thankypu {
     }
     a.navbar-brandtwo img {
         padding: 4px 0px;
-        width: 80%;
+        width: 56%;
     }
 }
 
